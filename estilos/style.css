@@ -1,0 +1,18 @@
+@import url(nav.css);
+@import url(section.css);
+
+:root {
+    --cor-branco: #FFFFFF;
+    --cor-cinza: #3A404E;
+    --cor-cinza-claro: #667085;
+    --cor-azul-escuro: #101828;
+    --cor-vinho: #8E2424;
+    --fonte: "inter";
+}
+
+body {
+    background-color: var(--cor-branco);
+    font-family: var(--fonte);
+    font-weight: 400;
+    font-size: 16px;
+}
