@@ -115,6 +115,7 @@ span.metricas__texto {
     border-radius: 10px;
     margin-bottom: 2rem;
     margin-left: 1rem;
+    padding: 1rem;
 }
 
 .vagas-titulo__mini {
@@ -126,9 +127,9 @@ span.metricas__texto {
 
 .informacoes {
     display: flex;
-    padding: 1rem;
+    padding-left: 1rem;
     color: var(--cor-cinza-claro);
-    margin-bottom: 1rem;
+    margin: 2.4rem 0 0.7rem 0;
 }
 
 .informacoes > span {
