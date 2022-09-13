@@ -10,6 +10,9 @@
     --fonte: "inter";
     --span-fundo:rgba(142, 36, 36, 0.05);
     --cor-da-borda: #EAECF0;
+    --cor-fundo: rgba(196, 25, 25, 0.03);
+    --cor-footer: #F9FAFB;
+    --footer-span: #98A2B3;
 }
 
 body {
@@ -18,3 +21,84 @@ body {
     font-weight: 400;
     font-size: 16px;
 }
+
+/*
+
+----vou mexer nisso ainda----
+
+@media screen and (max-width:920px) {
+    .metricas {
+        padding: 0 4rem;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .metricas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .metricas__cartao {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    }
+
+    .metricas__cartao span {
+    max-width: 280px;
+    text-align: center;
+    }
+
+    .secao p {
+    max-width: 70%;
+    }
+
+    .vaga {
+    max-width: 70%;
+    }
+    
+    .secao-vagas span.vagas-titulo {
+    max-width: 70%;
+    }
+
+    .depoimento h2 {
+    max-width: 100%;
+    font-size: 120%;
+    }
+
+    
+
+    .sideMenu  Ajustes de menu aqui {
+    display: initial;
+    visibility: visible;
+    }
+
+    .links {
+    margin: 2rem 0;
+    }
+
+    .links a {
+    margin-right: 0;
+    }
+
+    .menu {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -1000px;
+    height: 100vh;
+    background: #F9FAFB;
+    width: 15rem;
+    padding: 2rem;
+    transition: all 2s;
+    }
+
+    .menu .links, .menu .buttons {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    }
+}
+
+  */

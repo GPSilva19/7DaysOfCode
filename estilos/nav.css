@@ -5,12 +5,18 @@ nav {
     padding: 1.3rem 5rem; /*padding: 1rem 0; essa foi a medida que a prof fez (preferi a minha)*/
 }
 
+.sideMenu {
+    display: none;
+    visibility: hidden;
+}
+
 .links a {
     margin-right: 3.4rem;
     text-decoration: none;
     color: var(--cor-cinza-claro);
 }
 
+/*mexi no direcionamento button estava interferindo em outro button*/
 button {
     padding: 0.8em 1.3em;/* padding: 0.8rem 1rem; cursor: pointer; essa foi a medida que a prof fez (preferi a minha)*/
     text-decoration: none;
@@ -21,7 +27,7 @@ button {
     border: none;
     font-size: 0.9rem; /*0u 16px*/
     cursor: pointer;
-    margin-right: 1.2em;
+    margin-left: 1.2em;
 }
 
 .botao-cadastrar{

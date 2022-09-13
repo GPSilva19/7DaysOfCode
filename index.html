@@ -16,15 +16,22 @@
 <body>
     <nav>
         <img src="img/logo.svg" alt="Logo do site" >
-        <div class="links">
-            <a href="#" >Home</a>
-            <a href="#" >Produtos</a>
-            <a href="#" >Recursos</a>
-            <a href="#" >Sobre nós</a>
+        <!--
+        <div class="sideMenu">
+            <img src="img/menu.svg" alt="menu icon">
         </div>
-        <div class="botao">
-            <button>Entrar</button>
-            <button class="botao-cadastrar">Cadastrar</button>
+        -->
+        <div class="menu">
+            <div class="links">
+                <a href="#" >Home</a>
+                <a href="#" >Produtos</a>
+                <a href="#" >Recursos</a>
+                <a href="#" >Sobre nós</a>
+            </div>
+            <div class="botao">
+                <button class="entrar">Entrar</button>
+                <button class="botao-cadastrar">Cadastrar</button>
+            </div>
         </div>
     </nav>
 
@@ -68,7 +75,7 @@
 
         <span class="vagas-titulo">Design</span>
 
-        <div>
+        <div class="vaga">
             <span class="vagas-titulo__mini">Product Designer</span>
             <div class="informacoes">
                 <span>Full-time</span>
@@ -76,7 +83,7 @@
             </div>
         </div>
 
-        <div>
+        <div class="vaga">
             <span class="vagas-titulo__mini">UX Designer</span>
             <div class="informacoes">
                 <span>Full-time</span>
@@ -86,21 +93,21 @@
 
         <span class="vagas-titulo">Desenvolvimento de Software</span>
 
-        <div>
+        <div class="vaga">
             <span class="vagas-titulo__mini">Desenvolvedor(a) iOS</span>
             <div class="informacoes">
                 <span>Full-time</span>
                 <span>Faixa salarial: R$8.000</span>
             </div>
         </div>
-        <div>
+        <div class="vaga">
             <span class="vagas-titulo__mini">Desenvolvedor(a) Front-end</span>
             <div class="informacoes">
                 <span>Full-time</span>
                 <span>Faixa salarial: R$7.000</span>
             </div>
         </div>
-        <div>
+        <div class="vaga">
             <span class="vagas-titulo__mini">Desenvolvedor(a) Back-end</span>
             <div class="informacoes">
                 <span>Full-time</span>
@@ -108,5 +115,25 @@
             </div>
         </div>
     </section>
+
+    <section class="depoimentos">
+        <p>Veja o que nossos colaboradores falam sobre nós</p>
+        <h2>OptimusTech se importa com a saúde dos seus colaboradores e sempre procura nos dar todo tipo de auxílio possível.</h2>
+        <img src="img/Avatar.svg" alt="Foto da desenvolvedora">
+        <span class="nome">Júlia Castro</span>
+        <span class="cargo">Desenvolvedora Web</span>
+    </section>
+
+    <footer>
+        <h3>Acompanhe as nossas oportunidades</h3>
+        <p>Seja o primeiro a saber quando novas vagas serão abertas!</p>
+        <form>
+            <input type="email" placeholder="seu email">
+            <button class="botao-cadastrar">Cadastrar</button>
+        </form>
+        <span>© 2022 OptimusTech. Todos os direitos reservados.</span>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
