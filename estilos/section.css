@@ -37,7 +37,7 @@
     gap: 0.6em;
 }
 
-.metricas__cartao > h2 {
+.metricas__cartao > h3 {
     color: var(--cor-vinho);
     font-size: 3rem;
     font-weight: 600;
@@ -50,14 +50,14 @@
     line-height: 24px;
 }
 
-.metricas__texto {
+span.metricas__texto {
     color: var(--cor-azul-escuro);
     font-weight: 500;
     font-size: 18px;
     line-height: 28px;
 }
 
-.vagas {
+.talentos {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,7 +66,7 @@
     margin-top: 5rem;
 }
 
-.vagas__span {
+.talentos__span {
     background-color: var(--span-fundo);
     color: var(--cor-vinho);
     font-size: 0.8rem;
@@ -76,17 +76,61 @@
     border-radius: 12px;
 }
 
-.vagas__titulo {
+.talentos__titulo {
     color: var(--cor-azul-escuro);
     font-size: 2.3rem;
     font-weight: 600;
 }
 
-.vagas__texto {
+.talentos__texto {
     color: var(--cor-cinza-claro);
     font-size: 1.2rem;
 }
 
-.vagas img {
+.talentos img {
     margin-top: 1.6rem;
+}
+
+/*Seção das vagas de emprego obs: quase morri fazendo isso*/
+
+.secao-vagas {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.vagas-titulo {
+    color: var(--cor-azul-escuro);
+    font-weight: 500;
+    font-size: 20px;
+    margin: 3rem 0;
+    display: block;
+}
+
+.secao-vagas > div {
+    border: 1px  solid var(--cor-da-borda);
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+}
+
+.vagas-titulo__mini {
+    display: block;
+    margin: 1rem;
+    color: var(--cor-azul-escuro);
+    font-size: 18px;
+}
+
+.informacoes {
+    display: flex;
+    padding: 1rem;
+    color: var(--cor-cinza-claro);
+    margin-bottom: 1rem;
+}
+
+.informacoes > span {
+    margin-right: 2rem;
 }
